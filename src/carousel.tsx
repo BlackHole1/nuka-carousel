@@ -888,6 +888,7 @@ class Carousel extends React.Component<ICarouselProps, any> {
       cursor: this.state.dragging === true ? 'pointer' : 'inherit',
       boxSizing: 'border-box',
       MozBoxSizing: 'border-box',
+      touchAction: 'none'
     } as React.CSSProperties;
   }
 
